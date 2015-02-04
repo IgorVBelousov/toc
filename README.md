@@ -30,7 +30,7 @@ Install via [Composer](http://getcomposer.org/) by including the following in yo
  
     {
         "require": {
-            "caseyamcl/toc": "~1.0",
+            "igorvbelousov/toc": "~1.0",
         }
     }
 

@@ -6,7 +6,12 @@
 /**
  * PHP TOC Unit Tests Bootstrap File
  *
+ * @license http://opensource.org/licenses/MIT
+ * @link https://github.com/igorvbelousov/toc
+ * @version 1.0
+ * @package igorvbelousov/toc
  * @author Casey McLaughlin <caseyamcl@gmail.com>
+ * @author Igor V Belousov <igor@belousovv.ru>
  */
 
 //Files to ensure exist

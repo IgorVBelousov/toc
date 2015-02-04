@@ -2,11 +2,12 @@
 /**
  * toc
  *
- * @license ${LICENSE_LINK}
- * @link ${PROJECT_URL_LINK}
- * @version ${VERSION}
- * @package ${PACKAGE_NAME}
+ * @license http://opensource.org/licenses/MIT
+ * @link https://github.com/igorvbelousov/toc
+ * @version 1.0
+ * @package igorvbelousov/toc
  * @author Casey McLaughlin <caseyamcl@gmail.com>
+ * @author Igor V Belousov <igor@belousovv.ru>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
