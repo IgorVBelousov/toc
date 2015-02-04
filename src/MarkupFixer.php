@@ -8,6 +8,7 @@
  * @version 1.0
  * @package caseyamcl/toc
  * @author Casey McLaughlin <caseyamcl@gmail.com>
+ * @author Igor V Belouosv <igor@belousovv.ru>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -80,7 +81,9 @@ class MarkupFixer
                 continue;
             }
 
-            $tag->id = $sluggifier->slugify($tag->title ?: $tag->plaintext);
+            $tag->id = preg_replace('/^[-0-9._:]+/', '',  
+                $sluggifier->slugify($tag->title ?: $tag->plaintext)
+                );
         }
 
         return (string) $parsed;
